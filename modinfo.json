@@ -1,1 +1,11 @@
-mo
+[
+  {
+    "type": "MOD_INFO",
+    "id": "we_love_lean",
+    "name": "we_love_lean",
+    "authors": [ "ERRORCODE509" ],
+    "description": "mmm purple codeine liquid",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
