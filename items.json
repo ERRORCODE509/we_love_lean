@@ -1,1 +1,32 @@
-
+]
+  {
+    "type": "COMESTIBLE",
+    "id": "lean",
+    "name": { "str": "lean" },
+    "category": "drugs",
+    "weight": "81 g",
+    "color": "purple",
+    "container": "bottle_plastic",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 11,
+    "healthy": -8,
+    "calories": 49,
+    "description": "A mixture of lemon-lime soda and perscription-grade codeine cough syrup.",
+    "price": 9000,
+    "price_postapoc": 300,
+    "material": [ "junk" ],
+    "volume": "250 ml",
+    "phase": "liquid",
+    "charges": 4,
+    "flags": [ "EATEN_COLD", "WATER_DISSOLVE", "NO_AUTO_CONSUME" ],
+    "freezing_point": -45,
+    "fun": 30,
+    "addiction_potential": 20,
+    "addiction_type": "opiate",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You down some lean.",
+      "effects": [ { "id": "pkill2", "duration": 1080 }, { "id": "cough_suppress", "duration": 1000 } ]
+  }
+]
