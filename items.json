@@ -28,5 +28,6 @@
       "type": "consume_drug",
       "activation_message": "You down some lean.",
       "effects": [ { "id": "pkill2", "duration": 1080 }, { "id": "cough_suppress", "duration": 1000 } ]
+    }
   }
 ]
