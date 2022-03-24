@@ -5,7 +5,7 @@
     "name": { "str": "lean" },
     "category": "drugs",
     "weight": "67 g",
-    "color": "purple",
+    "color": "magenta",
     "container": "bottle_plastic",
     "comestible_type": "DRINK",
     "symbol": "~",
